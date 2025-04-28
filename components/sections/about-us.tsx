@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function AboutUs() {
   return (
-    <section id="about" className=" bg-gradient-to-b from-[#101010] via-[#022183] to-[#0C49E7] py-16 md:py-24">
+    <section id="about" className=" bg-gradient-to-b from-[#101010] via-[#022183] to-[#0649E7] py-16 md:py-24">
       <div className="container max-h-screen mx-auto px-4 md:px-6">
         
         <h2 className="mb-12 text-left mx-14 font-sans text-2xl font-medium text-white md:text-3xl">About Us</h2>
@@ -16,7 +16,7 @@ export default function AboutUs() {
                 alt="Team Member"
                 width={250}
                 height={250}
-                className=""
+                
               />
             </div>
             <div className=" mt-14 mx-18 max-w-lg text-white/90">
@@ -34,7 +34,7 @@ export default function AboutUs() {
                 alt="Team Member"
                 width={250}
                 height={250}
-                className=""
+                
               />
             </div>
             <div className=" max-w-lg mx-18 mt-14 text-white/90">

@@ -20,7 +20,7 @@ export default function BlueBox1() {
   ];
 
   return (
-    <div className="flex flex-col max-w-7xl items-center  p-8">
+    <div className="flex ml-11 flex-col max-w-7xl items-center  p-8">
 
       {plans.map((plan, index) => (
         <div key={index} className="mt-8 flex justify-center w-full">
@@ -57,7 +57,7 @@ export default function BlueBox1() {
               {/* Right Side */}
               <div className="flex flex-col items-end justify-between">
                 <div className="text-right">
-                  <h3 className="text-4xl font-bold">
+                  <h3 className="text-5xl font-bold">
                     {plan.price}
                     <span className="text-sm font-normal">/{plan.period}</span>
                   </h3>

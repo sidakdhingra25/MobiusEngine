@@ -8,11 +8,11 @@ export default function Hero() {
       <div className="container  mx-auto ml-11 mt-14 md:px-6">
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
           <div className="flex flex-col justify-center space-y-4">
-            <h1 className=" text-4xl font-semibold tracking-tighter text-white md:text-[80px] lg:text-[80px] lg:leading-[1.1]">
+            <h1 className=" text-3xl font-semibold tracking-tighter text-white md:text-[80px] lg:text-[80px] lg:leading-[1.1]">
               Land job interviews <span className="text-[#0649E7]">10x</span> faster
             </h1>
-            <p className="text-lg text-white/90 md:text-xl">
-              Leverage AI to optimize your job search, improve your resume, and land more interviews.
+            <p className="text-sm w-96 md:w-fit text-white/90 md:text-xl">
+            Custom-built resumes that match your goals, keywords, and recruiter expectations.
             </p>
             
             <div className="pt-4">
@@ -45,6 +45,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   )

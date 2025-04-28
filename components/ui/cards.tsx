@@ -17,13 +17,13 @@ export default function PromoCard({
 
 }: PromoCardProps) {
   return (
-    <div className=" md:h-full max-w-sm bg-white border-2 border-[#0033CC] rounded-4xl p-6 flex flex-col space-y-4 text-left">
+    <div className=" md:h-full max-w-sm bg-white border-2 border-[#0649E7] rounded-4xl p-6 flex flex-col space-y-4 text-left">
       
       {/* Title */}
-      <h2 className="text-[#0033CC] text-3xl font-semibold">{title}</h2>
+      <h2 className="text-[#0649E7] text-3xl font-semibold">{title}</h2>
 
       {/* Price */}
-      <div className="text-[#0033CC] mt-4 mb-8 text-6xl font-bold">
+      <div className="text-[#0649E7] mt-4 mb-8 text-6xl font-bold">
         {price}
         <span className="text-2xl font-bold">{period}</span>
       </div>
@@ -41,7 +41,7 @@ export default function PromoCard({
             height={100}
             width={100}
              className="w-5 h-5 text-green-500 mt-1" />
-            <span className="text-xl max-w-[277px] text-[#0033CC]">{text}</span>
+            <span className="text-xl max-w-[277px] text-[#0649E7]">{text}</span>
           </li>
         ))}
       </ul>

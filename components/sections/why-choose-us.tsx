@@ -4,7 +4,7 @@ export default function WhyChooseUs() {
     return (
         <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4 md:px-6">
-                <h2 className="mb-12 text-left font-sans text-2xl font-medium text-[#022183] md:text-3xl">
+                <h2 className="mb-12 ml-11 text-left  text-2xl font-medium text-[#022183] md:text-3xl">
                     Why Choose Us?
                 </h2>
                 <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

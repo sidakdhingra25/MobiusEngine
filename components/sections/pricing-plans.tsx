@@ -5,7 +5,7 @@ import PromoCard from "../ui/cards"
 export default function PricingPlans() {
   return (
     <section id="plans" className=" bg-white">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container ml-11 mx-auto px-4 md:px-6">
         <h2 className="mb-32 text-left font-sans text-2xl font-medium text-[#022183] md:text-4xl">
           Job Application Service Plans
         </h2>

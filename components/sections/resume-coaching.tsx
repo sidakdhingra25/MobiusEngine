@@ -3,15 +3,16 @@ import PromoCard from "../ui/cards";
 export default function ResumeCoaching() {
     return (
         <section className="py-16 bg-white flex justify-center items-center">
-            <div className="w-full">
+            <div className="w-full ml-11">
                 <div className="border-t w-full max-w-6xl mb-12 border-gray-300 mx-auto" />
 
                 <div className="container mx-auto px-4 md:px-6">
-                    <h2 className="mb-4 text-left font-sans text-2xl font-medium text-[#022183] md:text-3xl">
+                    <h2 className="mb-4 text-left  text-2xl font-bold text-[#0649E7] md:text-3xl">
                         Resume Building & Coaching
                     </h2>
-                    <p className="mb-24 text-left text-gray-600">
-                        Need more personalized help? Our experts can work with you one-on-one to perfect your job search materials.
+                    <p className="mb-24 max-w-2xl text-left text-[#0649E7]">
+                    Let&apos;s talk about where you&apos;re headed — and how your resume can get you there. 
+                    <span className="font-bold">Schedule a call to get started.</span>
                     </p>
                     <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-items-center">
                         {[
