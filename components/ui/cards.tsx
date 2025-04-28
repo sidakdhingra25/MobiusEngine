@@ -25,7 +25,7 @@ export default function PromoCard({
       {/* Price */}
       <div className="text-[#0033CC] mt-4 mb-8 text-6xl font-bold">
         {price}
-        <span className="text-xl font-bold">/{period}</span>
+        <span className="text-2xl font-bold">{period}</span>
       </div>
 
       {/* Divider */}
@@ -45,8 +45,9 @@ export default function PromoCard({
           </li>
         ))}
       </ul>
-
-      <Button/>
+        <div className="mt-auto  flex items-baseline justify-baseline">
+            <Button />
+        </div>
     </div>
   );
 }
