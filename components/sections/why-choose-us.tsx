@@ -10,8 +10,8 @@ export default function WhyChooseUs() {
                 <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {[
                         {
-                            icon: "/handshake.png",
-                            alt: "Heart Icon",
+                            icon: "/Handshake.png",
+                            alt: "Handshake",
                             title: "Tried, Tested, Trusted",
                             description:
                                 "Built by folks with 40+ years in tech and hiring — we know the game, and we’ve got your back.",
