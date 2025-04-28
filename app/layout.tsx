@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {  DM_Sans } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         className={` ${dmSans.variable}`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
