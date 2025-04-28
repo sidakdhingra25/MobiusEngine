@@ -1,5 +1,5 @@
-import { CheckCircle } from "lucide-react";
 import Button from "./button";
+import Image from "next/image";
 
 type PromoCardProps = {
   title: string;
@@ -17,10 +17,10 @@ export default function PromoCard({
 
 }: PromoCardProps) {
   return (
-    <div className=" md:h-min max-w-sm bg-white border border-[#0033CC] rounded-2xl p-6 flex flex-col space-y-4 text-left">
+    <div className=" md:h-full max-w-sm bg-white border-2 border-[#0033CC] rounded-4xl p-6 flex flex-col space-y-4 text-left">
       
       {/* Title */}
-      <h2 className="text-[#0033CC]  text-lg font-semibold">{title}</h2>
+      <h2 className="text-[#0033CC] text-3xl font-semibold">{title}</h2>
 
       {/* Price */}
       <div className="text-[#0033CC] mt-4 mb-8 text-6xl font-bold">
@@ -29,14 +29,19 @@ export default function PromoCard({
       </div>
 
       {/* Divider */}
-      <div className="border-t border-gray-300 my-2" />
+      <div className="border-t mb-8 border-gray-300 my-2" />
 
       {/* Features List */}
-      <ul className="space-y-3">
+      <ul className=" mb-11 space-y-3">
         {features.map((text, index) => (
           <li key={index} className="flex items-start gap-2">
-            <CheckCircle className="w-5 h-5 text-green-500 mt-1" />
-            <span className="text-sm text-[#0033CC]">{text}</span>
+            <Image
+            src="/tick.png"
+            alt="Tick Icon"
+            height={100}
+            width={100}
+             className="w-5 h-5 text-green-500 mt-1" />
+            <span className="text-xl max-w-[277px] text-[#0033CC]">{text}</span>
           </li>
         ))}
       </ul>

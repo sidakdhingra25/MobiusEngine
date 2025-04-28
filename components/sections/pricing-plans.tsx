@@ -15,7 +15,7 @@ export default function PricingPlans() {
               price: "$35",
               period: "week",
               features: [
-                "1-on-1 coaching sessions",
+                "Curated jobs from 1M+ listings, refreshed every 48 hours",
                 "Weekly check-ins",
                 "Access to job application resources",
                 "Personalized job search strategy",
